@@ -794,10 +794,10 @@ section.is-gray {
   background-color: #f7f7f8;
   color: black;
   cursor: pointer;
-  padding: 18px;
   width: 1026px;
   height: 66px;
   border: none;
+  padding: 19px 0px 18px 22px;
   text-align: left;
   outline: none;
   font-size: 20px;
@@ -813,11 +813,17 @@ section.is-gray {
     font-weight: normal;
     font-size: 14px;
     line-height: 147.3%;
+    padding: 14px 0px 15px 20px;
   }
 }
 
 .faq__collapsible-button-svg {
-  margin-right: 27px;
+  padding: 9px 28px 10px 0px;
+}
+@media screen and (max-width: 1199px) {
+  .faq__collapsible-button-svg {
+    padding: 15px 16.5px 10px 0px;
+  }
 }
 
 .active {
