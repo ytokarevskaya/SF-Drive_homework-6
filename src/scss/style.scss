@@ -2,7 +2,6 @@
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Roboto-Medium.woff") format("woff"),
     url("../fonts/Roboto-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -11,7 +10,6 @@
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Roboto-Bold.woff") format("woff"),
     url("../fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
@@ -21,7 +19,6 @@
   font-family: "Roboto";
   src: url("../fonts/Roboto-MediumItalic.eot?#iefix")
       format("embedded-opentype"),
-    url("../fonts/Roboto-MediumItalic.woff") format("woff"),
     url("../fonts/Roboto-MediumItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
@@ -30,7 +27,6 @@
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Roboto-BoldItalic.woff") format("woff"),
     url("../fonts/Roboto-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
@@ -840,7 +836,7 @@ section {
   }
 }
 
-.faq__collapsible-button-svg {
+.faq__collapsible-icon {
   padding: 9px 28px 10px 0px;
   @include breakpoint(medium) {
     padding: 15px 16.5px 10px 0px;
@@ -876,4 +872,8 @@ section {
 
 .faq__collapsible-button:hover {
   background-color: $midleblue;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
 }
