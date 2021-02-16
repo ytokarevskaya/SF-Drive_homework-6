@@ -502,7 +502,7 @@ section.is-gray {
   text-decoration: none;
 }
 .menu__frame-link.is-active, .menu__frame-link:hover {
-  color: #966dc7;
+  color: #5c8f9e;
 }
 
 .enter_btn {
@@ -517,8 +517,9 @@ section.is-gray {
   cursor: pointer;
 }
 .enter_btn:hover {
-  color: #966dc7;
-  border-color: #3f3d56;
+  color: #5c8f9e;
+  border-color: #5c8f9e;
+  background-color: rgba(97, 161, 153, 0.1);
 }
 
 /* footer */

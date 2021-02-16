@@ -27,7 +27,6 @@ for (i = 0; i < collButton.length; i++) {
 
 };
 
-
 function changeIcon(button, icon) {
     for (i = 0; i < icon.length; i++) {
         for (i = 0; i < button.length; i++) {

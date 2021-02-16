@@ -68,7 +68,7 @@ $black: #000;
 $grey: #828282;
 $purple: #3f3d56;
 $lightgrey: #f7f9fb;
-$purlelight: rgb(150, 109, 199);
+$greenlight: rgb(92, 143, 158);
 $darkgrey: #4f4f4f;
 $lightblue: #f7f7f8;
 $midleblue: rgba(97, 161, 153, 0.1);
@@ -552,7 +552,7 @@ section {
     text-decoration: none;
     &.is-active,
     &:hover {
-      color: $purlelight;
+      color: $greenlight;
     }
   }
 }
@@ -568,8 +568,9 @@ section {
   background: white;
   cursor: pointer;
   &:hover {
-    color: $purlelight;
-    border-color: #3f3d56;
+    color: $greenlight;
+    border-color: $greenlight;
+    background-color: $midleblue;
   }
 }
 
