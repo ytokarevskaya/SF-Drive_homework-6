@@ -1,0 +1,16 @@
+{
+  "name": "module19_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "saas": "node-sass src/scss/ -o src/css/",
+    "watch": "node-sass src/scss/style.scss -w src/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
