@@ -706,6 +706,10 @@ section {
   }
 }
 
+.contacts-link {
+  text-decoration: none;
+}
+
 .team__frame {
   &-wrapper {
     display: flex;
@@ -838,9 +842,9 @@ section {
 }
 
 .faq__collapsible-icon {
-  padding: 9px 28px 10px 0px;
+  padding: 9px 28px 10px 28px;
   @include breakpoint(medium) {
-    padding: 15px 16.5px 10px 0px;
+    padding: 15px 16.5px 10px 16.5px;
   }
 }
 

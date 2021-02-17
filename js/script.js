@@ -18,21 +18,31 @@ for (i = 0; i < collButton.length; i++) {
         let content = this.nextElementSibling;
         if (content.style.display === "block") {
             content.style.display = "none";
-        } else {
-            content.style.display = "block";      
-        }
-        changeIcon(collButton, icon)
 
+        } else {
+            content.style.display = "block"; 
+        };
+        rotateIcon(collButton, icon);
     });
 
 };
 
-function changeIcon(button, icon) {
+function rotateIcon(collButton, icon) {
     for (i = 0; i < icon.length; i++) {
-        for (i = 0; i < button.length; i++) {
-            if (button[i].classList.contains("active")) {
-                icon[i].innerHTML = activeIcon;
-            } else { icon[i].innerHTML = inactiveIcon };
+        for (i = 0; i < collButton.length; i++) {
+            if (collButton[i].classList.contains("active")) {
+                icon[i].classList.add("rotate180")
+            } else { icon[i].classList.remove("rotate180") }
+
         };
     };
-};
+}
+// function changeIcon(button, icon) {
+//     for (i = 0; i < icon.length; i++) {
+//         for (i = 0; i < button.length; i++) {
+//             if (button[i].classList.contains("active")) {
+//                 icon[i].innerHTML = activeIcon;
+//             } else { icon[i].innerHTML = inactiveIcon };
+//         };
+//     };
+// };
