@@ -37,12 +37,3 @@ function rotateIcon(collButton, icon) {
         };
     };
 }
-// function changeIcon(button, icon) {
-//     for (i = 0; i < icon.length; i++) {
-//         for (i = 0; i < button.length; i++) {
-//             if (button[i].classList.contains("active")) {
-//                 icon[i].innerHTML = activeIcon;
-//             } else { icon[i].innerHTML = inactiveIcon };
-//         };
-//     };
-// };
