@@ -23,8 +23,8 @@ function rotateIcon(collButton, icon) {
         for (i = 0; i < collButton.length; i++) {
             if (collButton[i].classList.contains("active")) {
                 icon[i].classList.add("rotate180")
-            } else { icon[i].classList.remove("rotate180") }
+            } else { icon[i].classList.remove("rotate180") };
 
         };
     };
-}
+};
