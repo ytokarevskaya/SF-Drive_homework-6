@@ -19,6 +19,7 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader,
             options: {
               esModule: true,
+              publicPath: '',
             },
           },
           "css-loader",
